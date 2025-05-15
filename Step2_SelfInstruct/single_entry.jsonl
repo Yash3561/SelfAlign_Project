@@ -1,0 +1,1 @@
+{"instruction": "Write a function to add two integers in Go.", "response": "</response>\n```go\npackage main\nfunc Add(a int, b int) int {\n    return a + b\n}\n```\n<tests>\n```go\npackage main\nimport \"testing\"\nfunc TestAdd(t *testing.T) {\n    if Add(2, 3) != 5 {\n        t.Error(\"Expected 5\")\n    }\n}\n```\n", "seed": "package main\n\n// Add two integers"}
