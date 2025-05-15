@@ -182,7 +182,7 @@ SelfAlign_Project/
     # Ensure Go is installed and goimports is in PATH
     go version
     goimports -h # Check if goimports is found
-    python validate_go_instructions.py
+    python execution_filter.py
     ```
     *   **Input:** The C->I or I->R output JSONL file (specified inside the script).
     *   **Output:** `Step3_Validated_Data/validated_go_instructions_final.jsonl` containing pairs where `go test` passed.
